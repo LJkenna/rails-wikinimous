@@ -1,5 +1,12 @@
+<div class="card" id="container">
+<div class="col-8 p-4 " id="form">
 <%= render "form", article: @article %>
-<ul>
-<li><%= link_to "Back to article", article_path %></li>
-<li><%= link_to "Back to list", articles_path %></li>
+<ul class="list-unstyled">
+<li>--------------</li>
+<li><%= link_to "Back to article", article_path, class:"btn btn-primary " %></li>
+<li>--------------</li>
+<li><%= link_to "Back to list", articles_path, class:"btn btn-dark" %></li>
+<li>--------------</li>
 </ul>
+</div>
+</div>
